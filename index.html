@@ -12,16 +12,19 @@
 <body>
     <header class="">
         <div class="buttons">
+        <input type="number" id="num-balls" min="1" placeholder="Например,9">
+        <button id="generate">Начать игру</button>
+    </div>
+        <!-- <div class="buttons">
             <button class="begin">Start</button>
             <button class="finish">Stop</button>
-        </div>
+        </div> -->
         <div class="counter">
-            <div class="counter-button">0</div>
+            <div id="click-counter">0</div>
         </div>
     </header>
     <h1>Лопай шарики!</h1>
-    <input type="number" id="num-balls" min="1" placeholder="Например,9">
-    <button id="generate">Начать игру</button>
+
     <div class="game-area" id="game-area"></div>
 
 </body>
